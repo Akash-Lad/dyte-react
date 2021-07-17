@@ -6,28 +6,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+/*header aligned to center*/
 h1 {
   text-align: center;
 }
-.p1 {
-  color: brown;
-}
-.p2 {
-  color: lightseagreen;
-}
-.p3 {
-  color: orange;
-}
+/*header with fixed width of 90%*/
 .App-header {
   width: 90%;
   margin: auto;
 }
+/*Navigation bar with unordered list centerralized*/
 ul {
   display: flex;
   flex-direction: row;
   text-align: center;
 }
+/*Navigation bar with width 300px*/
 li {
   width: 300px;
   list-style-type: none;
@@ -41,7 +35,7 @@ a {
 a:visited {
   color: black;
 }
-
+/*Below are panel settings*/
 .top-panel {
   background-color: hsl(225, 6%, 25%);
   padding: 0px;
@@ -54,18 +48,22 @@ a:visited {
   width: 33%;
   float: left;
 }
+/*To remove extra padding on navigation bar*/
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
+/*Final output section (Live-Output-View)*/
 .pane {
   height: 50vh;
   display: flex;
 }
+/*Background coloring of buttons in navigation bar*/
 .btn1 button:hover {
   background-color: greenyellow;
 }
+/*Limiting the border for editor container*/
 .editor-container {
   flex-grow: 1;
   flex-basis: 0;
@@ -75,16 +73,16 @@ a:visited {
   background-color: hsl(225, 6%, 25%);
 }
 
-/* To collapse the editor size */
+/* Reduce the size of the editor */
 .editor-container.collapsed {
   flex-grow: 0;
 }
 
-/* To make the collapse same even when there is some content */
+/* Collapse when content exists*/
 .editor-container.collapsed .CodeMirror-scroll {
-  position: absolute;
+  position: fixed;
 }
-
+/*styling the editor with color, curve on borders etc*/
 .editor-title {
   display: flex;
   justify-content: space-between;
@@ -94,17 +92,18 @@ a:visited {
   border-top-right-radius: 0.5rem;
   border-top-left-radius: 0.5rem;
 }
+/*Limiting window height to 30% */
 .CodeMirror {
   height: 30%;
 }
-
+/*Limiting the wrapper code display*/
 .code-mirror-wrapper {
   flex-grow: 1;
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
   overflow: hidden;
 }
-
+/*Wrapper with expand-collapse button*/
 .expand-collapse-btn {
   margin-left: 0.5rem;
   background: none;

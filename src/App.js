@@ -1,13 +1,18 @@
+//Importing required libraries and hooks from react package
+
 import React, { useEffect, useState } from "react";
-import Editor from "./components/Editor";
+import Editor from "./components/Editor"; // importing editor component 
 
 const App = () => {
+  // initializing hooks for html, css and js
   const [html, setHtml] = useState("");
   const [css, setCss] = useState("");
   const [js, setJs] = useState("");
   const [srcDoc, setSrcDoc] = useState("");
-  const [state, setState] = useState(1);
+  const [state, setState] = useState(1);  //hoom used for toggling user control from html/css/js
 
+  //scheduling effect to run with timeout in milliseconds after the rendering is done
+  //this helps to push final output in "Live-Output-View"
   useEffect(() => {
     const timeout = setTimeout(() => {
       setSrcDoc(`
@@ -21,6 +26,8 @@ const App = () => {
       clearTimeout(timeout);
     };
   }, [html, css, js]);
+
+  // navigation bar for toggling between html/css/js 
   return (
     <>
       <h1>Code Editor for HTML, CSS & JavaScript</h1>
@@ -50,6 +57,9 @@ const App = () => {
         </header>
       </div>
 
+      {/* code editor for user to enter code with live syntax highlighting
+          state hook being used for user navigation between the respective editors
+      */}
 
       <div className="top-panel">
 
@@ -117,6 +127,7 @@ const App = () => {
           </div>
         }
       </div>
+      {/* below section is used to display final output in Live-Output-View*/}
       <div className="pane">
         <h1>Live Output View:</h1>
         <iframe

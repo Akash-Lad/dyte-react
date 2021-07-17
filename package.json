@@ -2,7 +2,7 @@
   "name": "dyte-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Akash-Lad.github.io/dyte-frontend",
+  "homepage": "https://Akash-Lad.github.io/dyte-react",
   "dependencies": {
     "@material-ui/core": "^4.12.1",
     "@material-ui/icons": "^4.11.2",
