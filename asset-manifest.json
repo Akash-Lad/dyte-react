@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/dyte-react/static/css/main.06734684.chunk.css",
-    "main.js": "/dyte-react/static/js/main.06161c02.chunk.js",
-    "main.js.map": "/dyte-react/static/js/main.06161c02.chunk.js.map",
+    "main.css": "/dyte-react/static/css/main.8c61a074.chunk.css",
+    "main.js": "/dyte-react/static/js/main.02bb19e9.chunk.js",
+    "main.js.map": "/dyte-react/static/js/main.02bb19e9.chunk.js.map",
     "runtime-main.js": "/dyte-react/static/js/runtime-main.3861b80f.js",
     "runtime-main.js.map": "/dyte-react/static/js/runtime-main.3861b80f.js.map",
     "static/css/2.3ceb25c6.chunk.css": "/dyte-react/static/css/2.3ceb25c6.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.9f7d3955.chunk.js.map": "/dyte-react/static/js/3.9f7d3955.chunk.js.map",
     "index.html": "/dyte-react/index.html",
     "static/css/2.3ceb25c6.chunk.css.map": "/dyte-react/static/css/2.3ceb25c6.chunk.css.map",
-    "static/css/main.06734684.chunk.css.map": "/dyte-react/static/css/main.06734684.chunk.css.map",
+    "static/css/main.8c61a074.chunk.css.map": "/dyte-react/static/css/main.8c61a074.chunk.css.map",
     "static/js/2.003e0d61.chunk.js.LICENSE.txt": "/dyte-react/static/js/2.003e0d61.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3861b80f.js",
     "static/css/2.3ceb25c6.chunk.css",
     "static/js/2.003e0d61.chunk.js",
-    "static/css/main.06734684.chunk.css",
-    "static/js/main.06161c02.chunk.js"
+    "static/css/main.8c61a074.chunk.css",
+    "static/js/main.02bb19e9.chunk.js"
   ]
 }
