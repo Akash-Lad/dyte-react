@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-# Deployed GitHub Pages: https://akash-lad.github.io/dyte-react/
+### Deployed GitHub Pages: https://akash-lad.github.io/dyte-react/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

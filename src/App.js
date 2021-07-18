@@ -9,7 +9,7 @@ const App = () => {
   const [css, setCss] = useState("");
   const [js, setJs] = useState("");
   const [srcDoc, setSrcDoc] = useState("");
-  const [state, setState] = useState(1);  //hoom used for toggling user control from html/css/js
+  const [state, setState] = useState(0);  //hoom used for toggling user control from html/css/js
 
   //scheduling effect to run with timeout in milliseconds after the rendering is done
   //this helps to push final output in "Live-Output-View"
