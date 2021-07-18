@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dyte-react/static/css/main.8c61a074.chunk.css",
-    "main.js": "/dyte-react/static/js/main.02bb19e9.chunk.js",
-    "main.js.map": "/dyte-react/static/js/main.02bb19e9.chunk.js.map",
+    "main.js": "/dyte-react/static/js/main.07568c15.chunk.js",
+    "main.js.map": "/dyte-react/static/js/main.07568c15.chunk.js.map",
     "runtime-main.js": "/dyte-react/static/js/runtime-main.3861b80f.js",
     "runtime-main.js.map": "/dyte-react/static/js/runtime-main.3861b80f.js.map",
     "static/css/2.3ceb25c6.chunk.css": "/dyte-react/static/css/2.3ceb25c6.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.3ceb25c6.chunk.css",
     "static/js/2.003e0d61.chunk.js",
     "static/css/main.8c61a074.chunk.css",
-    "static/js/main.02bb19e9.chunk.js"
+    "static/js/main.07568c15.chunk.js"
   ]
 }
